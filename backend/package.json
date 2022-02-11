@@ -1,0 +1,18 @@
+{
+    "name": "ebook-backend",
+    "version": "1.0.0",
+    "description": "Unziping epub files and returning epub book",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "adm-zip": "^0.5.5",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.12"
+    }
+}
